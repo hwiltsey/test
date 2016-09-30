@@ -1,0 +1,38 @@
+.hero {
+	background: red;
+	width: 100%;
+	padding: 30px 0;
+	float: left;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.third {
+	width: 100%;
+	float: left;
+}
+
+.third p {
+	font-size: 10px;
+	color: #fff;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+	.third {
+		width: 29%;
+		margin: 2%;
+		float: left;
+}
+	.third p {
+	font-size: 10px;
+	color: #fff;
+}
+}
+
