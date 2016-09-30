@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-	background: red;
+	background: #BC8F8F;
 	width: 100%;
 	padding: 1em 0;
 	float: left;
@@ -29,6 +29,8 @@ h2 {
 p {
 	font-size: 4px;
 }
+
+
 
 .third p {
 	font-size: 1em;
