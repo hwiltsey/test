@@ -1,7 +1,12 @@
+body {
+	background-color: peachpuff;
+	font-size: 12px;
+}
+
 .hero {
 	background: red;
 	width: 100%;
-	padding: 30px 0;
+	padding: 1em 0;
 	float: left;
 }
 
@@ -15,24 +20,34 @@
 	float: left;
 }
 
+h2 {
+	font-size: 2em;
+	color: #fff;
+	padding: 5px 0;
+}
+
+p {
+	font-size: 4px;
+}
+
 .third p {
-	font-size: 10px;
+	font-size: 1em;
 	color: #fff;
 }
 
-
-
-
-
-@media (min-width: 768px) {
+@media (min-width: 760px) {
 	.third {
 		width: 29%;
-		margin: 2%;
+		margin-right: 2%;
 		float: left;
 }
 	.third p {
-	font-size: 10px;
-	color: #fff;
+		font-size: 10px;
+		color: #fff;
+}
+	body {
+		background-color: peachpuff;
+		font-size: 16px;
 }
 }
 
